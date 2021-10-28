@@ -1,0 +1,69 @@
+Docker version 20.10.10, build b485636f4b
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+Using default tag: latest
+latest: Pulling from library/busybox
+Digest: sha256:15e927f78df2cc772b70713543d6b651e3cd8370abf86b2ea4644a9fba21107f
+Status: Image is up to date for busybox:latest
+docker.io/library/busybox:latest
+REPOSITORY              TAG       IMAGE ID       CREATED        SIZE
+busybox                 latest    cabb9f684f8b   11 hours ago   1.24MB
+jupyter/base-notebook   latest    30e4ff899b39   2 days ago     670MB
+mysql                   5.7.35    8a8a506ccfdc   2 weeks ago    448MB
+hello-world             latest    feb5d9fea6a5   4 weeks ago    13.3kB
+busybox                 <none>    16ea53ea7c65   6 weeks ago    1.24MB
+Hello From Galileo Master
+CONTAINER ID   IMAGE                   COMMAND                  CREATED             STATUS             PORTS                                                  NAMES
+0299f174f90b   mysql:5.7.35            "docker-entrypoint.s…"   About an hour ago   Up About an hour   33060/tcp, 0.0.0.0:3308->3306/tcp, :::3308->3306/tcp   product-db-1
+39da64f04773   jupyter/base-notebook   "tini -g -- start-no…"   About an hour ago   Up About an hour   0.0.0.0:8888->8888/tcp, :::8888->8888/tcp              product-jupyter-1
+a15026e8814a   mysql:5.7.35            "docker-entrypoint.s…"   6 hours ago         Up 6 hours         0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp   focused_cartwright
+CONTAINER ID   IMAGE                   COMMAND                  CREATED              STATUS                              PORTS                                                  NAMES
+a4c4cc938571   busybox                 "echo 'Hello From Ga…"   1 second ago         Exited (0) Less than a second ago                                                          dreamy_knuth
+cd57beea2909   hello-world             "/hello"                 9 seconds ago        Exited (0) 8 seconds ago                                                                   heuristic_tharp
+9c551ee8a84e   jupyter/base-notebook   "tini -g -- start-no…"   About a minute ago   Created                                                                                    clever_bhaskara
+c96c50822b04   mysql:5.7.35            "docker-entrypoint.s…"   About a minute ago   Created                                                                                    eloquent_robinson
+b185e9175d81   jupyter/base-notebook   "tini -g -- start-no…"   About a minute ago   Created                                                                                    trusting_williams
+0912b8336eed   busybox                 "sh"                     2 minutes ago        Exited (0) 2 minutes ago                                                                   nice_sinoussi
+5fefd2093585   busybox                 "echo 'Hello From Ga…"   3 minutes ago        Exited (0) 2 minutes ago                                                                   ecstatic_lederberg
+4ddce4b529b0   hello-world             "/hello"                 3 minutes ago        Exited (0) 3 minutes ago                                                                   festive_cohen
+0299f174f90b   mysql:5.7.35            "docker-entrypoint.s…"   About an hour ago    Up About an hour                    33060/tcp, 0.0.0.0:3308->3306/tcp, :::3308->3306/tcp   product-db-1
+39da64f04773   jupyter/base-notebook   "tini -g -- start-no…"   About an hour ago    Up About an hour                    0.0.0.0:8888->8888/tcp, :::8888->8888/tcp              product-jupyter-1
+160adbf505f3   jupyter/base-notebook   "tini -g -- start-no…"   5 hours ago          Exited (129) About an hour ago                                                             recursing_heisenberg
+a15026e8814a   mysql:5.7.35            "docker-entrypoint.s…"   6 hours ago          Up 6 hours                          0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp   focused_cartwright
+ed795f3fc4b8   mysql:5.7.35            "docker-entrypoint.s…"   23 hours ago         Exited (0) 23 hours ago                                                                    affectionate_hofstadter
+db69770dc544   mysql:5.7.35            "docker-entrypoint.s…"   23 hours ago         Exited (0) 23 hours ago                                                                    agitated_fermat
+0c15b2fb6956   jupyter/base-notebook   "tini -g -- start-no…"   23 hours ago         Exited (129) 23 hours ago                                                                  epic_hertz
+b697c53b7c4b   16ea53ea7c65            "sh"                     24 hours ago         Exited (0) 24 hours ago                                                                    gifted_pascal
+0fae7169baf6   16ea53ea7c65            "echo 'Hello From Ga…"   24 hours ago         Exited (0) 24 hours ago                                                                    zealous_colden
+56b0a8951062   hello-world             "/hello"                 24 hours ago         Exited (0) 24 hours ago                                                                    zen_johnson
+5abd33d982a2   hello-world             "/hello"                 24 hours ago         Exited (0) 24 hours ago                                                                    vigilant_moore
+e88a35cd2d98   hello-world             "/hello"                 24 hours ago         Exited (0) 24 hours ago                                                                    eager_einstein
+21248360a837   hello-world             "/hello"                 24 hours ago         Exited (0) 24 hours ago                                                                    musing_leavitt
+41a961885b06   hello-world             "/hello"                 24 hours ago         Exited (0) 24 hours ago                                                                    optimistic_goldwasser
+cae653901d08   hello-world             "/hello"                 2 weeks ago          Exited (0) 2 weeks ago                                                                     blissful_morse
+/ # exites[J[J[J^C
+/ # ^C
+/ # ^C
+/ # ^C
+/ # ^C
+/ # 

@@ -1,0 +1,23 @@
+docker --version > docker.txt
+docker run hello-world >> docker.txt
+docker pull busybox >> docker.txt
+docker images >> docker.txt
+docker run busybox echo "Hello From Galileo Master" >> docker.txt
+docker ps >> docker.txt
+docker ps -a >> docker.txt
+docker run -it busybox sh >> 
+ls
+uptime
+exit
+#docker rm b697c53b7c4b >> docker.txt
+
+docker pull jupyter/base-notebook >> docker_python.txt
+docker run -p 8888:8888 jupyter/base-notebook >> docker_python.txt
+docker ps >> docker_python.txt
+docker network create --drive bridge my_test_network >> docker_python.txt
+docker run -it --network my_test_network -e "MYSQL_ROOT_PASSWORD=root123" -e "MYSQL_DATABASE=test" -e "MYSQL_USER=test" -e "MYSQL_PASSWORD=test123" -p 3306:3306 mysql:5.7.35>> docker_python.txt
+docker run -p 8888:8888 --network my_test_network jupyter/base-notebook >> docker_python.txt
+docker exec -it recursing_heisenberg sh
+pip install mysql-connector-python 
+exit
+docker-compose --version >> docker-compose.txt

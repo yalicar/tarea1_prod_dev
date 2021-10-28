@@ -1,0 +1,10 @@
+Using default tag: latest
+latest: Pulling from jupyter/base-notebook
+Digest: sha256:37f879d1621529324c890ad2fa8d8432e2ca67c62874878b9b5e93d78671a3c7
+Status: Image is up to date for jupyter/base-notebook:latest
+docker.io/jupyter/base-notebook:latest
+CONTAINER ID   IMAGE                   COMMAND                  CREATED              STATUS              PORTS                                                  NAMES
+82793557e95f   busybox                 "sh"                     About a minute ago   Up About a minute                                                          epic_sutherland
+0299f174f90b   mysql:5.7.35            "docker-entrypoint.s…"   About an hour ago    Up About an hour    33060/tcp, 0.0.0.0:3308->3306/tcp, :::3308->3306/tcp   product-db-1
+39da64f04773   jupyter/base-notebook   "tini -g -- start-no…"   About an hour ago    Up About an hour    0.0.0.0:8888->8888/tcp, :::8888->8888/tcp              product-jupyter-1
+a15026e8814a   mysql:5.7.35            "docker-entrypoint.s…"   6 hours ago          Up 6 hours          0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp   focused_cartwright
